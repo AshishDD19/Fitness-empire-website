@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  font-family: 'Play', sans-serif;
+  background: #000000d0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* body{
+  width: 100vw;
+  height: 100vh;
+} */
+
+.container{
+  /* width: 60%;
+  margin: 10% auto;
+  background: pink !important; */
+  width: 60%;
+  margin: 10% auto;
+  background: white;
+  color: Black;
+  padding: 2em;
+  border-radius: 30px;
+  max-width: 600px;
+  width: 100%;
+  /* margin: 1em; */
+}
+
+
+.container h1{
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+
+.find{
+  display: flex;
+  align-items: center;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#name,#email,#occupation,#mobile{
+  /* flex-basis: 45%; */
+
+}
+
+input.INPUT {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: black;
+  font-family: inherit;
+  font-size: 105%;
+  width: 45%;
+  /* max-width: 180px; */
+  margin: .35em 0;
+}
+
+.insurance{
+  display: flex;
+  align-items: center;
+  margin: .5em 0;
+}
+
+#insurancel{
+  margin-right: .5em;
+}
+
+.insurancer{
+  margin-left: .5em;
+}
+
+.genderdiv{
+  display: flex;
+  align-items: center;
+}
+
+.genderdiv label{
+  margin-right: .5em;
+}
+
+.gender{
+  margin: 0 .25em;
+}
+
+.check-box-1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.check-box-1 div{
+  margin: .25em;
+  flex-basis: 45%
+}
+
+#member{
+  margin: .5em 0;
+}
+
+.surgery{
+  margin-top: .5em;
+}
+.anything{
+  margin-top: .5em;
+}
+
+.btn{
+  /* width: 19%;
+  border-radius: 20px; */
+  margin-top: 0.5rem;
+  display: inline-block;
+  padding: 0.5rem 1.4rem;
+  padding-right: 1.5rem;
+  background: linear-gradient(130deg, #FFE400 93%, transparent 90%);
+  color: black;
+  cursor: pointer;
+  font-size: 1.7rem;
+  border: none;
+  font-family: 'Play', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* -------------------------------------BACK AND SUBMIT------------------------------------------------------- */
+.back-submit{
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------ORDER PAGE-------------------------------------------------------- */
+#orderplaced{
+    font-family: 'Play', sans-serif;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow:5px 5px 500px 1px,-5px -5px 500px 1px;
+}
+#orderplaced h2{
+    text-align: center;
+}
+
+#orderplaced a{
+  margin:1em 0;
+}
+
+#orderplaced::after{
+    content: "";
+    display: block;
+    clear: both;
+}

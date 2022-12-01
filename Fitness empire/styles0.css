@@ -1,0 +1,157 @@
+*
+{
+  font-family: 'Lato', sans-serif;
+}
+body{
+  background-color: black;
+}
+.login-div{
+  margin: 100px auto;
+  width: 350px;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 30px;
+  padding-bottom: 10px;
+}
+.logo{
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.logo img
+{
+  width: 100%;
+  border-radius: 30px;
+
+}
+.title,.subtitle
+{
+  text-align: center;
+}
+/* .title
+{
+  font-weight: bolder;
+  font-size: 35px;
+} */
+.subtitle
+{
+  font-size: 35px;
+}
+.form
+{
+  width: 100%;
+  margin-top: 30px;
+}
+.form input{
+  font-size: 20px;
+  padding: 10px 20px 10px 5px;
+  border: none;
+  outline: none;
+}
+
+.username,.password
+{
+  display: block;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 2);
+  padding: 10px;
+  margin: 10px 0;
+}
+.form svg
+{
+  height: 25px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.option
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin-top: 30px;
+
+}
+
+.signin-btn
+{
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color:#ffe400;
+  color: black;
+  margin-bottom: 5px;
+}
+.signin-btn:hover{
+  background-color: #ffe400;
+}
+.text
+{
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+a
+{
+  text-decoration: none;
+  color: #505050;
+}
+.a
+{
+  text-align: center;
+  display: flex;
+  width: 200px;
+  font-size: 15px;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
+  border-radius: 10px;
+  border-style: none;
+  margin-left:70px;
+  background-color:lightblue;
+}
+.sign-up
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.or
+{
+  text-align: center;
+}
+.home
+{
+  text-align: center;
+}
+.array
+{
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width:584px)
+{
+  .login-div
+  {
+    max-width: 100%;
+  }
+  .form
+  {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .login-div .form
+  {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .form::-webkit-scrollbar
+  {
+    width: 0;
+  }
